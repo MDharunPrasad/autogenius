@@ -24,7 +24,7 @@ header h1{
 
 }
 
-section{
+section {
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -47,3 +47,7 @@ header li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#text1{
+    font-family: impact;
+    
+}
