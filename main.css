@@ -1,0 +1,49 @@
+*{
+margin: 0;
+}
+
+body{
+    background-color: black;
+    color:white;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    text-align:center;
+  
+
+}
+
+header h1{
+    font-size: 60px;
+    font-family: impact;
+    display: flex;
+    justify-content: center;
+
+}
+
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section img {
+    margin-top: 50px;
+    width:956px;
+    height: 284px;
+
+}
+
+header li{
+    list-style: none;
+    padding: 10px 10px;
+    margin:10px 10px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
