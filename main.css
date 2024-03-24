@@ -36,9 +36,13 @@ header h1{
 }
 
  img {
-    margin-top: 20px;
+    margin-top: 10px;
     width:956px;
     height: 284px;
+    float:right;
+    border-radius: 10px;
+    border: 5px solid white;
+    margin-left: 20px;
 
 }
 
@@ -50,18 +54,15 @@ header li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#text p{
-    font-family: impact;
-    display: block;
+.wrapper{
+    text-align: end;
+    margin-right: 50px;
 
-    
-  
-    
 }
 
- p{
-   
-    padding-top: 10px;
-    
-
+.text-box{
+    color: white;
+    font-size: 34px;
+    font-family: poppins;
+    margin-top: 50px;
 }
