@@ -19,7 +19,7 @@ header ul {
 
 header h1{
     font-size: 60px;
-    font-family: impact;
+    font-family:  'Arial Narrow Bold';
     display: flex;
     justify-content: center;
 
@@ -63,6 +63,10 @@ header li{
 .text-box{
     color: white;
     font-size: 34px;
-    font-family: poppins;
+    font-family:source code pro;
     margin-top: 50px;
+}
+
+.javatext{
+    color:darkblue;
 }
