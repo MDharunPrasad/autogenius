@@ -1,0 +1,47 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+h1
+{
+    font-family:sans-serif;
+    font-size: 50px;
+    padding-left: 50px;
+
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+}
+h2{
+    font-family: sans-serif;
+}
+img{
+    size: 10px;
+    width: 825px;
+    height: 200px;
+}
+span
+{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 50px; 
+   
+
+}
+.wrapper
+{
+    align-items: center;
+    width: 50px;
+
+}
+.textbox
+{
+     color:black;
+     
+}
