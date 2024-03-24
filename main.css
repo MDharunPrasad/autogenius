@@ -1,5 +1,6 @@
 *{
 margin: 0;
+border: 0;
 }
 
 body{
@@ -22,18 +23,20 @@ header h1{
     display: flex;
     justify-content: center;
 
+
 }
 
-section {
+#images {
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
+    
 }
 
-section img {
-    margin-top: 50px;
+ img {
+    margin-top: 20px;
     width:956px;
     height: 284px;
 
@@ -47,7 +50,18 @@ header li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#text1{
+#text p{
     font-family: impact;
+    display: block;
+
     
+  
+    
+}
+
+ p{
+   
+    padding-top: 10px;
+    
+
 }
