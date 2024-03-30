@@ -1,73 +1,9 @@
-*{
-margin: 0;
-border: 0;
-}
+ #font{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
 
-body{
-    background-color: black;
-    color:white;
-}
-
-header ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    text-align:center;
-  
-
-}
-
-header h1{
-    font-size: 60px;
-    font-family:  'Arial Narrow Bold';
-    display: flex;
-    justify-content: center;
-
-
-}
-
-#images {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
-
- img {
-    margin-top: 10px;
-    width:956px;
-    height: 284px;
-    float:right;
-    border-radius: 10px;
-    border: 5px solid white;
-    margin-left: 20px;
-
-}
-
-header li{
-    list-style: none;
-    padding: 10px 10px;
-    margin:10px 10px;
-    font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.wrapper{
-    text-align: end;
-    margin-right: 50px;
-
-}
-
-.text-box{
-    color: white;
-    font-size: 34px;
-    font-family:source code pro;
-    margin-top: 30px;
-}
-
-.javatext{
-    color:darkblue;
-}
-
+ body{
+    color: aliceblue;
+ }
