@@ -21,7 +21,7 @@
     letter-spacing: 4px;
     display: inline-flex;
     font-weight: 900;
-    padding-left: 25px;
+    padding-left: 15px;
 }
 
 #side{
@@ -29,14 +29,14 @@
     height: 500px;
     width: 500px;
     float: right;
-    padding-right: 30px;
+    padding-right: 20px;
 }
 #text{
     font-size: 40px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: block;
     font-weight: 400;
-    padding-left: 25px;
+    padding-left: 15px;
 }
 
 .line{
