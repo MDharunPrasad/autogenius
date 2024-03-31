@@ -71,3 +71,36 @@
 #two{
     padding-left: 20px;
 }
+
+#lo{
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 60px;
+    border:10px solid black;
+}
+
+#l{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+#sec{
+    display: flex;
+    
+}
+
+#pp{
+    padding-left: 40px;
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#lorem{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+    font-weight: 400;
+}
