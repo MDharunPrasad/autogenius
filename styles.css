@@ -12,13 +12,16 @@
     font-family: 'Courier New', Courier, monospace;
     word-spacing: 12px;
     display: inline;
+    padding-left: 25px;
 }
 
 #head{
     font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 4px;
     display: inline-flex;
+    font-weight: 900;
+    padding-left: 25px;
 }
 
 #side{
@@ -28,16 +31,16 @@
     float: right;
     padding-right: 30px;
 }
-
 #text{
     font-size: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: inline;
-    padding-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    font-weight: 400;
+    padding-left: 25px;
 }
 
 .line{
-    margin-top: 90px;
+    margin-top: 20px;
 }
 
 #explore{
@@ -46,8 +49,9 @@
     background-color:aqua;
     padding: 20px;
     border-radius: 8px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-top: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size: 30px;
      
 }
 
