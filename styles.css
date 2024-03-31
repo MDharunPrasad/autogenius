@@ -21,7 +21,7 @@
     letter-spacing: 4px;
     display: inline-flex;
     font-weight: 900;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 #side{
@@ -36,7 +36,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: block;
     font-weight: 400;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .line{
