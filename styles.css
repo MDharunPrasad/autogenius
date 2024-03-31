@@ -13,7 +13,7 @@
     font-family: 'Courier New', Courier, monospace;
     word-spacing: 12px;
     display: inline;
-    padding-left: 25px;
+    padding-left: 20px;
 }
 
 #head{
@@ -30,7 +30,7 @@
     height: 500px;
     width: 500px;
     float: right;
-    padding-right: 30px;
+    padding-right: 20px;
 }
 #text{
     font-size: 40px;
