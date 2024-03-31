@@ -1,43 +1,61 @@
-#one1{
-   font-size: 70px;
-   text-align: center;
-   font-family:impact;
-}
 
-#one2{
-    font-family:monospace;
+
+#heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    padding-top: 7%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+    letter-spacing: 12px;
+   
 }
 
-.box{
-    background-color: black;
-    width:200px;
-    height:100px;
-    border-radius: 20px;
-    margin: 50px;
-    }
+#slogan{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 12px;
+    display: inline;
+}
 
-    .box h1{
-        color: white;
-        text-align: center;
-        padding-top: 15px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
+#head{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    display: inline-flex;
+}
 
+#side{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    float: right;
+    padding-right: 30px;
+}
 
+#text{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline;
+    padding-left: 20px;
+}
 
-    section {
-        display: flex;
-        justify-content: center;
+.line{
+    margin-top: 90px;
+}
+
+#explore{
+    height:fit-content;
+    width: fit-content;
+    background-color:aqua;
+    padding: 20px;
+    border-radius: 8px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 80px;
+     
+}
+
+#button{
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
     
-    }
 
-    .wrapper{
-        display: flex;
-        flex-direction: row;
-    }
-
-   
+}
