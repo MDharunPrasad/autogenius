@@ -5,6 +5,9 @@
     text-align: center;
     letter-spacing: 20px;
     font-size: 50px;
+    display: inline;
+    padding: 10px;
+    margin-left: 20px;
    
 }
 
@@ -31,7 +34,10 @@
     width: 500px;
     float: right;
     padding-right: 10px;
+
 }
+
+
 #text{
     font-size: 40px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -87,8 +93,8 @@
     width: 400px;
     margin-left: 20px;
     margin-top: 20px;
-    border-radius: 60px;
-    border:10px solid black;
+    margin-bottom: 10px;
+   
 }
 
 #l{
@@ -104,7 +110,7 @@
 
 #pp{
     padding-left: 40px;
-    margin-top: 20px;
+    margin-top: 40px;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -123,10 +129,47 @@
     text-align: center;
     margin-top: 30px;
     margin-right: 400px;
+    
+    
 }
 
 #det{
     text-align: center;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.end{
+    color:grey;
+}
+
+.end:hover{
+    color:blueviolet;
+}
+
+nav ,ul,li{
+    list-style: none;
+    display: inline;
+}
+
+ul{
+   padding-left: 15%;
+}
+
+li{
+    margin-right:100px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding:5px;
+  
+
+}
+
+li:hover{
+    border:  3px solid aqua;
+    cursor:pointer;
+    
 }
