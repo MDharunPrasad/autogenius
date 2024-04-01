@@ -2,13 +2,11 @@
 
 #heading{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
     letter-spacing: 20px;
     font-size: 50px;
     display: inline;
-    padding: 10px;
+    
     margin-left: 20px;
-   
 }
 
 #slogan{
@@ -173,3 +171,4 @@ li:hover{
     cursor:pointer;
     
 }
+
