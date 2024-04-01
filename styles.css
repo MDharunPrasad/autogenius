@@ -47,12 +47,22 @@
 #explore{
     height:fit-content;
     width: fit-content;
-    background-color:aqua;
+    background-color:black;
     padding: 20px;
     border-radius: 8px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 30px;
+    color:aqua;
+    border: 3px solid aqua;
+
      
+}
+
+#explore:hover{
+    color:yellow;
+    background-color: black;
+    border: 3px solid yellow;
+
 }
 
 #button{
@@ -103,4 +113,20 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline;
     font-weight: 400;
+}
+
+#contact{
+    font-size: 40px;
+    padding: 20px;
+    background-color: aqua;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 400px;
+}
+
+#det{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
