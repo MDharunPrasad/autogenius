@@ -138,6 +138,7 @@
 
 .end{
     color:grey;
+   
 }
 
 .end:hover{
@@ -163,6 +164,12 @@ li{
     padding:5px;
   
 
+}
+
+.icons{
+    height: 40px;
+    width:40px; 
+    
 }
 
 
