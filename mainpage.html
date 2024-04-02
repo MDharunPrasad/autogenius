@@ -2,20 +2,36 @@
 <html lang="en">
 <head>
     <title>autogenius</title>
-    <!-- Flaticon Website -->
     <link rel="icon" href="/images/logo.jpeg">
     <link rel="stylesheet" href="main.css">
-    
-   
-
-    
 </head>
 <body >
+    <!--section-->
 
+   <section>
+    <img src="bgpics/bg.jpg" id="bg">
+    <img src="bgpics/moon.png" id="moon">
+    <img src="bgpics/mountain.png" id="mountain">
+    <img src="bgpics/road.png" id="road">
+    <h2 id ="text"> AUTO GENIUS</h2>
+   </section>
+   <script type="text/javascript">
+    let bg = document.getElementById("bg");
+    let moon = document.getElementById("moon");
+    let mountain = document.getElementById("mountain");
+    let road = document.getElementById("road");
+    let text = document.getElementById("text");
 
+    window.addEventListener('scroll',function(){
+        var value = window.scrollY;
 
+        bg.style.top = value * 0.5 + 'px';
+        moon.style.left = -value * 0.5 + 'px';
+        moon.style.top = -value * 0.15 + 'px';
+        road.style.top = value * 0.15 + 'px';
+        text.style.top = value * 1 + 'px';
+    })
+   </script>
 
-
-    
 </body>
 </html>
