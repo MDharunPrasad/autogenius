@@ -130,21 +130,6 @@
     
 }
 
-#det{
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.end{
-    color:grey;
-   
-}
-
-.end:hover{
-    color:blueviolet;
-}
-
 nav ,ul,li{
     list-style: none;
     display: inline;
@@ -167,10 +152,34 @@ li{
 }
 
 .icons{
-    height: 40px;
-    width:40px; 
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-right: 40px;
     
 }
 
+
+
+
+
+.icons img{
+    height:40px;
+    width: 40px;
+    
+    
+}
+
+.class{
+    text-align: center;
+}
+
+.icons p{
+    font-family: monospace;
+    font-size: 20px;
+    
+}
 
 
